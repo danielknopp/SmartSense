@@ -2,11 +2,12 @@
 
 ## Introduction
 
-<p class="text-lg font-bold">Anthropogenic climate change is a main contributor to an increased frequency of severe weather extremes which results in a
-growing demand to examine environmental condition, in order to prepare for future events. With environment monitoring, the processes and activities that happen in designated environments are observed, the resulted information are then gathered, statistically analysed, and interpreted by scientists. The information is then presented to the public, decision makers or other interested parties. The derived knowledge from this process, builds the foundation for evidence-based decision-making (Fig.2) and enables forecasts and adaptation strategies. Environmental data collection is traditionally time and resources intensive. An innovative, time-reducing and cost-effective approach is based on the autonomous, smart-sense (IoT) data-logger. Depending on the environmental parameters, different data collection strategies are chosen. Figure 3 displays the
-setup of a weather station, where sensors collect data on solar radiation, wind velocity, wind direction, precipitation, air temperature, air pressure and air humidity as well as soil temperature and soil moisture. Different parameters require individual monitoring station designs and currently the ITT SmartSense team is working on a prototype of an autonomous water quality station.</p>
+Anthropogenic climate change is a main contributor to an increased frequency of severe weather extremes which results in a
+growing demand to examine environmental condition, in order to prepare for future events. With environment monitoring, the processes and activities that happen in designated environments are observed, the resulted information are then gathered, statistically analysed, and interpreted by scientists. The information is then presented to the public, decision makers or other interested parties. The derived knowledge from this process, builds the foundation for evidence-based decision-making and enables forecasts and adaptation strategies. Environmental data collection is traditionally time and resources intensive. An innovative, time-reducing and cost-effective approach is based on the autonomous, smart-sense (IoT) data-logger. Depending on the environmental parameters, different data collection strategies are chosen. 
 
-<img src="Photos/Gymnich2023.jpg" alt="Gymnich metereological station 2023">
+The setup of a weather station, where sensors collect data on solar radiation, wind velocity, wind direction, precipitation, air temperature, air pressure and air humidity as well as soil temperature and soil moisture. Different parameters require individual monitoring station designs and currently the ITT SmartSense team is working on a prototype of an autonomous water quality station.
+
+
 
 
 ## Project Goals
@@ -18,9 +19,9 @@ setup of a weather station, where sensors collect data on solar radiation, wind 
 
 ## Data Sources
 
-<p class="text-lg font-bold">The weather data used in this project is collected from a network of sensors deployed in different locations. These sensors measure various parameters such as temperature, humidity, wind speed, and solar radiation.</p>
+The weather data used in this project is collected from a network of sensors deployed in different locations. These sensors measure various parameters such as temperature, humidity, wind speed, and solar radiation.
 
 ## About Us
 
-<img src="Photos/team-23.jpg" alt="Team Smart Sense ITT">
+information
 

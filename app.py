@@ -2,11 +2,18 @@ import streamlit as st
 import plotly.express as px
 import pandas as pd
 from custom_css import local_css
+from PIL import Image, ImageOps
+
 
 # set config page
 st.set_page_config(page_title="Smart Sense", page_icon=":partly_sunny:", layout="wide")
 
 st.title(":partly_sunny: Smart Sense Weather Data Analysis")
+
+# load photos
+
+image1 = Image.open('Photos/team-23.jpg')
+image2 = Image.open("Photos/Gymnich2023.jpg")
 
 
 # Load local CSS file
@@ -21,6 +28,20 @@ with tab1:
     with open("about_us.md", "r") as file:
         about_us_content = file.read()
     st.markdown(about_us_content)
+
+    st.subheader("Gallery")
+    
+        # Display images with corrected orientation
+    col1, col2 = st.columns(2)
+    col1.image(ImageOps.exif_transpose(image1), caption='Team Smart Sense', width=350)
+    col2.image(ImageOps.exif_transpose(image2), caption="Measurement Station", width=350)
+
+    st.markdown("""
+    ## Contact Us
+
+    For any inquiries or questions, please feel free to contact ......
+    """)
+
 
 # Set tab 2
 with tab2:
@@ -85,7 +106,7 @@ with tab2:
     delta_radsolar = df["radsolar"].diff().iloc[-1]   
 
     st.subheader("Current measurement")
-    
+
     with open('style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
