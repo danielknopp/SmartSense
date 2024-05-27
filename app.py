@@ -52,10 +52,9 @@ with tab2:
     if selected_variables:
         # Group by variable if more than one selected
         if len(selected_variables) > 1:
-            groupby_variable = st.selectbox("Group by variable:", df.columns)
-
+        
             # Create plot
-            fig = px.line(df, x='UTC_server_time', y=selected_variables, title="Weather Parameters over Time", color=groupby_variable)
+            fig = px.line(df, x='UTC_server_time', y=selected_variables, title="Weather Parameters over Time")
 
             # Update Y axis labels with units
             for var in selected_variables:
@@ -85,6 +84,8 @@ with tab2:
     delta_soiltemp = df["soiltemp"].diff().iloc[-1]
     delta_radsolar = df["radsolar"].diff().iloc[-1]   
 
+    st.subheader("Current measurement")
+    
     with open('style.css') as f:
         st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
